@@ -1,1 +1,1 @@
-## Join Our Discord Server: https://discord.gg/bju8n9NKQa
+## Join Our Discord Server: http://dsc.gg/Vellure
