@@ -5,7 +5,7 @@ return {
 
     Changelogs = {
         {
-            ["Title"] = "Vellure 1.01",
+            ["Title"] = "Vellure 1.0",
             ["Date"] = "N/A",
             ["Changes"] = {
                 "- This is the beginning of our journey:)~",
