@@ -5,7 +5,7 @@ return {
 
     Changelogs = {
         {
-            ["Title"] = "Vellure 1.02",
+            ["Title"] = "Grand Piece Online [1.02]",
             ["Date"] = "29/11/2025",
             ["Changes"] = {
                 "- Added Grand Piece Online",
@@ -15,7 +15,7 @@ return {
         },
 
         {
-            ["Title"] = "Vellure 1.01",
+            ["Title"] = "Vellure [1.01]",
             ["Date"] = "N/A",
             ["Changes"] = {
                 "- This is the beginning of our journey:)~",
