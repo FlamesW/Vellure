@@ -1,6 +1,6 @@
 return {
     SupportedGames = {
-        {Game = "Grand Piece Online", Status = "Online", Date = "29/11/2025"},
+        {Game = "Grand Piece Online", Status = "Updating", Date = "29/11/2025"},
     },
 
     Changelogs = {
