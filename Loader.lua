@@ -1,10 +1,11 @@
 -- // Vellure [Loader.Lua]
-getgenv().Loader = {}
-
 if (Library and Library:InstanceExist()) then
 	Library:Notify("Vellure is already loaded~", 5)
 	return 
 end
+
+-- // Loader Source
+getgenv().Loader = {}
 
 getgenv().Loader.Files = {
     ["A Universal Time"] = { Author = "NyxaSylph", File = "AUT/Main.lua", CreatorId = 6556072,},
