@@ -6,6 +6,17 @@ return {
 
     Changelogs = {
         {
+            ["Title"] = "Grand Piece Online 1.03",
+            ["Date"] = "3/12/2025",
+            ["Changes"] = {
+                "- Fixed Auto Fishing AFK Ban",
+                "- Level Farm now more Stable",
+                "- Added Tween Speed Modifier",
+            },
+            ["Note"] = "",
+        },
+        
+        {
             ["Title"] = "Grand Piece Online 1.02",
             ["Date"] = "29/11/2025",
             ["Changes"] = {
