@@ -1,19 +1,19 @@
 return {
     SupportedGames = {
-        {Game = "Grand Piece Online", Status = "Updating", Date = "29/11/2025"},
+        {Game = "Grand Piece Online", Status = "Updating", Date = "03/12/2025"},
         {Game = "A Universal Time", Status = "Online", Date = "29/11/2025"},
     },
 
     Changelogs = {
         {
             ["Title"] = "Grand Piece Online 1.03",
-            ["Date"] = "3/12/2025",
+            ["Date"] = "03/12/2025",
             ["Changes"] = {
                 "- Fixed Auto Fishing AFK Ban",
                 "- Level Farm now more Stable",
                 "- Added Tween Speed Modifier",
             },
-            ["Note"] = "",
+            ["Note"] = "Note: Updates may take some time.",
         },
         
         {
@@ -21,13 +21,13 @@ return {
             ["Date"] = "29/11/2025",
             ["Changes"] = {
                 "- Added Grand Piece Online",
-                "- Script In BETA, Report any bugs",
+                "- In BETA, Report any bugs",
             },
             ["Note"] = "Note: Updates may take some time.",
         },
 
         {
-            ["Title"] = "Vellure Library 1.01",
+            ["Title"] = "Welcome to Vellure",
             ["Date"] = "N/A",
             ["Changes"] = {
                 "- This is the beginning of our journey:)~",
