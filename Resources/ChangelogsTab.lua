@@ -28,7 +28,7 @@ return {
         },
 
         {
-            ["Title"] = "Welcome to Vellure",
+            ["Title"] = "Welcome to Vellure 1.01",
             ["Date"] = "N/A",
             ["Changes"] = {
                 "- This is the beginning of our journey:)~",
