@@ -2,7 +2,7 @@ return {
     SupportedGames = {
         {Game = "Grand Piece Online", Status = "Updating", Date = "03/12/2025"},
         {Game = "A Universal Time", Status = "Online", Date = "29/11/2025"},
-        {Game = "Your Bizzare Adventure", Status = "Unknown", Date = "03/12/2025"},
+        {Game = "Your Bizzare Adventure", Status = "Unknown", Date = "06/12/2025"},
     },
 
     Changelogs = {
