@@ -1,4 +1,11 @@
 -- // ~YBA Anti Cheat~
+local cloneref = (cloneref or clonereference or function(instance: any)
+    return instance
+end)
+
+local Players = cloneref(game:GetService("Players"));
+local LocalPlayer = Players.LocalPlayer
+
 local Required = {
     hookmetamethod,
     hookfunction,
@@ -9,6 +16,7 @@ local Required = {
 
 for i, v in ipairs(Required) do
     if type(v) ~= "function" then
+		LocalPlayer:Kick("Sorry, Your executor does not support Anti Cheat Bypass, Try a diffrent one");
         return
     end
 end
@@ -30,7 +38,7 @@ if not shared.AntiCheatBypass then shared.AntiCheatBypass = true;
         return OldNamecallTP(self, ...)
     end))
 
-    local Modified =  game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").Position
+    local Modified =  LocalPlayer.Character:WaitForChild("HumanoidRootPart").Position
     local OldItemIndex
 
     OldItemIndex = hookfunction(getrawmetatable(Modified).__index, function(self, key)
