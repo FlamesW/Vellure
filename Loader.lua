@@ -14,6 +14,7 @@ getgenv().Loader.Files = {
     ["Blade X Zombies"] = { Author = "FlamesW", File = "BXZ/Main.lua", CreatorId = 883342755 },
     ["Weak Legacy 2"] = { Author = "FlamesW", File = "WL2/Main.lua", CreatorId = 34970628 },
     ["Murim Cultivation"] = { Author = "FlamesW", File = "MC/Main.lua", CreatorId = 32416851 },
+    ["Your Bizzare Adventure"] = { Author = "FlamesW", File = "YBA/Main.lua", CreatorId = 3194064 },
 
 	["A Universal Time"] = { Author = "sasha_1_1", File = "AUT/Main.lua", CreatorId = 6556072,},
     ["Grand Piece Online"] = { Author = "sasha_1_1", File = "GPO/Main.lua", CreatorId = 3229308 },
