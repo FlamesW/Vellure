@@ -59,5 +59,10 @@ if not shared.AntiCheatBypass then shared.AntiCheatBypass = true;
         return OldClockIndex(self, Key, ...)
     end))
 
-	warn("✓ Anti Cheat Loaded Successfully~");
+	-- // Vellure Instance Detector~
+	if (Library and Library:InstanceExist()) then
+        Library:Notify("✓ Anti Cheat Loaded Successfully~", 1);
+	else
+		warn("✓ Anti Cheat Loaded Successfully~");
+	end
 end
