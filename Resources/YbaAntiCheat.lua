@@ -1,4 +1,18 @@
 -- // ~YBA Anti Cheat~
+local Required = {
+    hookmetamethod,
+    hookfunction,
+    getrawmetatable,
+    newcclosure,
+    getnamecallmethod,
+}
+
+for i, v in ipairs(Required) do
+    if type(v) ~= "function" then
+        return
+    end
+end
+
 if not shared.AntiCheatBypass then shared.AntiCheatBypass = true;
     local OldNamecallTP;
     OldNamecallTP = hookmetamethod(game, '__namecall', newcclosure(function(self, ...)
