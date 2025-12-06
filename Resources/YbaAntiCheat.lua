@@ -59,5 +59,5 @@ if not shared.AntiCheatBypass then shared.AntiCheatBypass = true;
         return OldClockIndex(self, Key, ...)
     end))
 
-	warn("==== Anti Cheat Loaded ====");
+	warn("✓ Anti Cheat Loaded Successfully~");
 end
