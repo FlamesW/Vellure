@@ -119,8 +119,6 @@ VellureESP:AddObjectListener(workspace.Example.Enemies, {
     Distance = true; -- // Show distance to NPC
 })
 
-Environment.Init()
-
 -- VellureESP:Unload()
 --]]
 
