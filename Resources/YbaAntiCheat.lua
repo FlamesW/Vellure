@@ -14,8 +14,10 @@ local Required = {
     getnamecallmethod,
 }
 
+local Eww = identifyexecutor and identifyexecutor();
+
 for i, v in ipairs(Required) do
-    if type(v) ~= "function" then
+    if type(v) ~= "function" or Eww == "Solara" or Eww == "Xeno" then
 		LocalPlayer:Kick("Sorry, Your executor does not support Anti Cheat Bypass, Try a diffrent one");
         return
     end
