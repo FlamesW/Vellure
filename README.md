@@ -1,4 +1,4 @@
-## Join Our Discord Server: Here["http://dsc.gg/Vellure"]
+## Join Our Discord Server: http://dsc.gg/Vellure
 
 ## Get Official Script:
 ```lua
