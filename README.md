@@ -1,7 +1,17 @@
-## Join Our Discord Server: http://dsc.gg/Vellure
+## Join Our Discord Server: Here[http://dsc.gg/Vellure]
 
+## Get Official Script:
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Vellure/main/Loader.lua"))();
+```
 
-## Sexy People:
-<img width="389" height="329" alt="{7B0525D3-3FD7-4CAC-B468-2865DA522AD1}" src="https://github.com/user-attachments/assets/54d33190-af45-486a-b3ad-8f1622422c3d" />
-
-<img width="389" height="340" alt="{79EA5144-3CDD-4EE3-9AFA-C071D6AF2E14}" src="https://github.com/user-attachments/assets/1d480a08-fd03-47bb-931b-228319dec19a" />
+## Settings:
+```
+getgenv().Compact = true; -- // Uses Mobile Variant for PC
+```
+```
+getgenv().Multi_Support = true; -- // Multi Config Support (One Path)
+```
+```
+getgenv().Autoload_Pause = true; -- // Stops autoload from running
+```
