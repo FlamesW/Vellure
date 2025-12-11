@@ -21,11 +21,14 @@ getgenv().Multi_Support = true;
 getgenv().Autoload_Pause = true;
 ```
 #### Auto Update Library
+
+** ⚠️ Cautious, Any update will reload the script
 ```lua
 getgenv().Auto_Update = true;
 ```
 
 #### Shutdown Library
+
 ```lua
 getgenv().ShutDown();
 ```
