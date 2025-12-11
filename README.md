@@ -35,7 +35,7 @@ getgenv().Auto_Update = true;
 #### Shutdown Library
 
 ```lua
-getgenv().ShutDown();
+getgenv().Shutdown();
 ```
 
 ### Join Our Discord Server: http://dsc.gg/Vellure
