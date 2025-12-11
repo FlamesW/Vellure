@@ -12,6 +12,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Vellure/main/
 ```lua
 getgenv().Compact = true;
 ```
+#### Loads Anti Lagger on load
+```lua
+getgenv().Anti_Lag = true;
+```
+
 #### Multi Config Support (One Path)
 ```lua
 getgenv().Multi_Support = true;
