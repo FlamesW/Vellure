@@ -1,5 +1,4 @@
 -- // Vellure [Loader.Lua]
-local game = game;
 local ____ = {} ____["טעִינַת מִשְׂחָק"] = (not game:IsLoaded() and game.Loaded or nil); 
 if ____["טעִינַת מִשְׂחָק"] then ____["טעִינַת מִשְׂחָק"]:Wait() end ____["שַׁחֲקָנִים"] = game.Players; 
 ____["שַׁחֲקָן מְקוֹמִי"] = (____["שַׁחֲקָנִים"].LocalPlayer); ____["שַׁחֲקָן מְקוֹמִי"] = (____["שַׁחֲקָן מְקוֹמִי"]
