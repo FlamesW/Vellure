@@ -4,11 +4,11 @@ if not game["IsLoaded"](game) then
 	game["Loaded"]:Wait() 
 end
 
-local ___ = {}
+local ____ = {}
 local Players = game["Players"];
 local LocalPlayer = Players["LocalPlayer"];
 LocalPlayer = LocalPlayer or Players.PlayerAdded:Wait();
-___["בָּרוּךְ אַתָּה ה׳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם"] = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+____["בָּרוּךְ אַתָּה ה׳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם"] = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
 
 function __Load(File, ...) 
 	return coroutine.wrap(File)(...) 
