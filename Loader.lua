@@ -6,10 +6,8 @@ ____["שַׁחֲקָן מְקוֹמִי"] = (____["שַׁחֲקָנִים"].Loca
 (____["שַׁחֲקָן מְקוֹמִי"].Character or ____["שַׁחֲקָן מְקוֹמִי"].CharacterAdded:Wait());
 
 if (Library and Library:InstanceExist()) then 
-	Library:Notify("Vellure is already loaded~", 5) return 
-end ____["טעִינַת מָהִירָה"] = function(File, ...) 
-	return coroutine.wrap(File)(...) 
-end; 
+	Library:Notify("Vellure is already loaded~", 5) return;
+end ____["טעִינַת מָהִירָה"] = function(File, ...) return coroutine.wrap(File)(...); end;
 
 getgenv().Loader = {}
 
