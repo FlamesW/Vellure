@@ -1,10 +1,21 @@
 -- // Vellure [Loader.Lua]
-if (Library and Library:InstanceExist()) then
-	Library:Notify("Vellure is already loaded~", 5)
-	return 
-end  function __Load(File, ...) return coroutine.wrap(File)(...) end
+local game  = game;
+if not game["IsLoaded"](game) then 
+	game["Loaded"]:Wait() 
+end
 
--- // Loader Source
+local Players = game["Players"];
+local LocalPlayer = Players["LocalPlayer"];
+LocalPlayer = LocalPlayer or Players.PlayerAdded:Wait();
+local Char = LocalPlayer["Character"] or LocalPlayer["CharacterAdded"]:Wait();
+
+function __Load(File, ...) 
+	return coroutine.wrap(File)(...) 
+end if (Library and Library:InstanceExist()) then 
+	Library:Notify("Vellure is already loaded~", 5) 
+	return 
+end
+
 getgenv().Loader = {}
 
 getgenv().Loader.Files = {
