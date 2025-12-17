@@ -5,9 +5,10 @@ ____["שַׁחֲקָן מְקוֹמִי"] = (____["שַׁחֲקָנִים"].Loca
 	or ____["שַׁחֲקָנִים"].PlayerAdded:Wait()); ____["בָּרוּךְ אַתָּה ה׳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם"] = 
 (____["שַׁחֲקָן מְקוֹמִי"].Character or ____["שַׁחֲקָן מְקוֹמִי"].CharacterAdded:Wait());
 
-if (Library and Library:InstanceExist()) then 
+if (Library and Library:InstanceExist()) then
 	Library:Notify("Vellure is already loaded~", 5) return;
 end ____["טעִינַת מָהִירָה"] = function(File, ...) return coroutine.wrap(File)(...); end;
+ -- // if getgenv().Shutdown then getgenv().Shutdown() end;
 
 getgenv().Loader = {}
 
