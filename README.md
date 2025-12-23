@@ -39,3 +39,6 @@ getgenv().Shutdown();
 ```
 
 ### Join Our Discord Server: http://dsc.gg/Vellure
+
+
+#### I love ratatowowee
