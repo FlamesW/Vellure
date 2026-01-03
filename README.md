@@ -1,7 +1,5 @@
 ## Get Vellure Today:
 
-<img width="822" height="601" alt="{F8B27C4A-F763-4B8C-8215-8AF4AF3A3F35}" src="https://github.com/user-attachments/assets/e785024a-7531-4937-8ce8-69fe1d8996ef" />
-
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Vellure/main/Loader.lua"))();
 ```
